@@ -53,11 +53,11 @@ body {
 }
 
 .header {
-    position: none;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 20%;
+    height: 5%;
     padding: 2rem 9%;
     background: dark;
     display: flex;
@@ -99,7 +99,7 @@ a.btn:hover {
     border: 1px solid crimson;
 }
 .media-body a.btn:hover {
-    color: black;
+    color: rgb(148, 145, 145);
 }
 .typing, .typing-1 {
     color: crimson;
@@ -146,11 +146,12 @@ h3.hello {
 }
 
 .media-card {
-    max-width: 1800px;
-    display: flex;
-    background-color: white;
-    border: 5px solid white;
-    border-radius: 20px;
+    /* max-width: 1800px; */
+    /* display: flex; */
+    /* background-color: black; */
+    /* background-color: rgba(255, 255, 255, 0.85); Semi-transparent white */
+    /* border: 5px solid white; */
+    /* border-radius: 20px; */
     margin: auto;
 }
 
@@ -159,6 +160,7 @@ h3.hello {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    color: white;
 }
 
 .about-content .left img {
@@ -173,16 +175,19 @@ h3.hello {
     font-size: 30px;
     padding-bottom: 10px;
     font-weight: 500;
+    color: white;
 }
 
 .about-content .right .about-descript {
     padding-bottom: 10px;
+    color: white;
 }
 
 .about-content .right .about-description {
     color: black;
     line-height: 1.5;
     font-size: 18px;
+    color: white;
 }
 
 @media (min-width: 1104px) {
@@ -236,7 +241,7 @@ i {
     border-radius: 8px;
 }
 .my-skill-card:hover {
-    background-color: crimson;
+    background-color: rgb(166, 163, 164);
     transform: scale(1.02);
 }
 .my-skill-description {
@@ -382,12 +387,12 @@ i {
     border-radius: 50%;
 }
 .project-layer p {
-    font-size: 1rem;
+    font-size: 0.70rem;
     margin: .3rem 0 .7rem;
     color: white;
 }
 .project-layer h4 {
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: white;
 }
 .project-box .project-layer {
@@ -396,7 +401,7 @@ i {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgb(220, 20, 60, 0.8), red);
+    background: linear-gradient(rgba(16, 3, 6, 0.8), rgb(16, 2, 2));
     display: flex;
     justify-content: center;
     align-items: center;
